@@ -1,0 +1,7 @@
+.half_width{
+    width:50%;
+    float:left;
+}
+.half_width img{
+    width: 100%;
+}
