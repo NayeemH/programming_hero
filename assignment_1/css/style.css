@@ -40,3 +40,18 @@ body{
 .hireMe:hover{
     background-image: linear-gradient(45deg,#FC466B,#3F5EFB);
 }
+.card {
+
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+  
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
