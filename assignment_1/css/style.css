@@ -1,7 +1,42 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
 .half_width{
-    width:50%;
+    width:40%;
     float:left;
+    margin-left: 5%;
+    margin-right: 5%;
+    height:auto;
 }
 .half_width img{
-    width: 100%;
+    width: 80%;
+}
+.hello{
+    font-size: 70px;
+}
+.about{
+    font-size:50px;
+    font-weight: 600;
+}
+.text_highlight{
+    font-size:70px;
+    color:rgb(0, 225, 255);
+}
+.description{
+    font-size:20px;
+    font-weight: 100;
+    text-justify:auto;
+}
+.hireMe{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,  rgb(0, 225, 255),#fc00ff);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hireMe:hover{
+    background-image: linear-gradient(45deg,#FC466B,#3F5EFB);
 }
